@@ -107,7 +107,7 @@ input#new-task {
   vertical-align: middle;
 }
 
-.list-element  > input[type="checkbox"] {
+.list-element  > .item-element[type="checkbox"] {
   margin: 0 10px;
 }
 .list-element  > .label {
@@ -116,7 +116,7 @@ input#new-task {
   font-size: 18px;
   width: 226px;
 }
-.list-element  >    input[type="text"] {
+.list-element  >  .item-element[type="text"] {
   width: 226px;
 }
 .btn.delete img {
@@ -146,4 +146,5 @@ input#new-task {
 
 .list .list-element.edit-mode .label {
   display: none;
-}
+} 
+
