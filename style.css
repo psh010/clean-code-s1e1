@@ -42,7 +42,8 @@ body {
   .list-element, .title {
     list-style: none;
 }
-  .item-element,.btn{
+  .item-element,
+  .btn{
     outline: none;
 }
   .btn {
@@ -134,11 +135,11 @@ input#new-task {
 }
 
 /* Edit Task */
-.list .list-element  input[type=text] {
+.list .list-element .item-element[type=text] {
   display: none;
 }
 
-.list .list-element.edit-mode input[type=text] {
+.list .list-element.edit-mode .item-element[type=text] {
   display: inline-block;
   width: 224px;          
 }
