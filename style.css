@@ -36,14 +36,14 @@ body {
     display: flex;
 }
   .list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
   .list-element, .title {
-    list-style:none;
+    list-style: none;
 }
   .item-element,.btn{
-    outline:none;
+    outline: none;
 }
   .btn {
     background: none;
@@ -135,14 +135,14 @@ input#new-task {
 
 /* Edit Task */
 .list .list-element  input[type=text] {
-  display:none
+  display: none
 }
 
 .list .list-element.edit-mode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list .list-element.edit-mode .label {
-  display:none;
+  display: none;
 }
