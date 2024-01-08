@@ -18,44 +18,44 @@ body {
 }
 
 @media (max-width:768px) {
-.banner { 
-  text-align: center;
+  .banner { 
+    text-align: center;
 }
 }
-.main-container {
-  display: block;
-  width: 500px;
-  margin: 0 auto 0;
+  .main-container {
+    display: block;
+    width: 500px;
+    margin: 0 auto 0;
 }
-.item-element {
-  width: 56%;
-  display: inline-block;
-  flex-grow: 1
+  .item-element {
+    width: 56%;
+    display: inline-block;
+    flex-grow: 1
 }
-.item-wrapper {
-  display: flex;
+  .item-wrapper {
+    display: flex;
 }
-.list {
-  margin:0;
-  padding: 0px;
+  .list {
+    margin:0;
+    padding: 0px;
 }
-.list-element, .title {
-  list-style:none;
+  .list-element, .title {
+    list-style:none;
 }
-.item-element,.btn{
-  outline:none;
+  .item-element,.btn{
+    outline:none;
 }
-.btn {
-  background: none;
-  border: 0px;
-  color: #888;
-  font-size: 15px;
-  width: 60px;
-  font-family: Lato, sans-serif;
-  cursor: pointer;
+  .btn {
+    background: none;
+    border: 0px;
+    color: #888;
+    font-size: 15px;
+    width: 60px;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
 }
-.btn:hover {
-    color: #3a3a3a;
+  .btn:hover {
+     color: #3a3a3a;
 }
 /* Heading */
 .title,
