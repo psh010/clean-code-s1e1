@@ -20,7 +20,7 @@ body {
 @media (max-width:768px) {
   .banner { 
     text-align: center;
-}
+  }
 }
   .main-container {
     display: block;
@@ -39,7 +39,8 @@ body {
     margin: 0;
     padding: 0px;
 }
-  .list-element, .title {
+  .list-element,
+  .title {
     list-style: none;
 }
   .item-element,
@@ -90,7 +91,7 @@ body {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+.item-element#new-task {
   width: 318px;
 }
 
